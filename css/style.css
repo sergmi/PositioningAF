@@ -1,0 +1,316 @@
+html{
+height: 100%;
+}
+
+body{
+min-height: 100%;
+width: 1600px;
+padding: 0;
+margin: 0 auto;
+position: relative;
+}
+
+header>img{
+display: inline-block;
+background-color: #FF9C00;
+}
+
+header{
+position: fixed;
+top: 0;
+left: 0;
+height: 128px;
+width: 100%;
+background-color: #FFFFFF;
+}
+header>div{
+width: 1200px;
+margin: 0 auto;
+}
+
+
+h1{
+width: 150px;
+display: inline-block;
+margin: 0;
+position: relative;
+bottom: 30px;
+font-size: 38px;
+text-align: center;
+color: #6E6D6B;
+}
+
+ul{
+line-height: 0;
+padding: 0;
+margin: 0;
+list-style-type: none;
+display: inline-block;
+}
+
+li{
+display: inline-block;
+margin: 0 26px 0 26px;
+}
+
+nav {
+float: right;
+position: relative;
+bottom: 40px;
+}
+
+nav a{
+font-size: 22px;
+font-weight: bold;
+text-decoration: none;
+color: #9E9B9B;
+}
+
+.icon{
+width: 65px;
+height: 60px;
+border-radius: 10%;
+background-image: url(../img/icons.png);
+display: block;
+position: relative;
+top: 25px;
+}
+
+.icon-contact{
+background-position: 77px -400px;
+left: 8px;
+}
+
+nav a:hover, .icon-contact:hover{
+color: #000000;
+background-position: 80px -397px;
+}
+
+.icon-blog{
+background-position: 215px -400px;
+left: -6px;
+}
+nav a:hover, .icon-blog:hover{
+color: #000000;
+background-position: 218px -397px;
+}
+
+.icon-work{
+background-position: 350px -400px;
+left: -19px;
+}
+nav a:hover, .icon-work:hover{
+color: #000000;
+background-position: 353px -397px;
+}
+
+.icon-about{
+background-position: 455px -400px;
+left:0;
+}
+nav a:hover, .icon-about:hover{
+color: #000000;
+background-position: 458px -397px;
+}
+
+.icon-home{
+background-position: 583px -400px;
+left: -5px;
+}
+nav a:hover, .icon-home:hover{
+color: #000000;
+background-position: 586px -397px;
+}
+
+section{
+width: 1200px;
+margin: 0 auto;
+font-size: 0;
+}
+
+article{
+margin-left: 30px;
+}
+article:nth-child(4n+1){
+margin-left: 0;
+}
+
+.team-columns article+article{
+margin-left: 205px;
+}
+
+.team-columns {
+margin-bottom: 40px;
+}
+
+.team-columns article{
+width: 260px;
+display: inline-block;
+vertical-align: text-top;
+}
+
+.text-columns article{
+width: 270px;
+height: 172px;
+display: inline-block;
+overflow: auto;
+margin-bottom: 50px;
+}
+
+.text-columns p, .text-columns a{
+line-height: 1.5em;
+}
+
+article a{
+font-size: 18px;
+color: #FFB110;
+text-decoration: none;
+}
+
+.read-button{
+float: right;
+}
+
+.text-columns p{
+padding: 0;
+margin: 0;
+font-size: 15.5px;
+font-weight: bold;
+}
+
+h2{
+width: 400px;
+text-decoration: underline;
+margin: 0 auto 30px auto;
+text-align: center;
+font-size: 38px;
+font-weight: normal;
+letter-spacing: 0.05em;
+color: #FF9C00;
+}
+
+span{
+color: #FB9C06;
+}
+
+.background-picture{
+margin-top: 128px;
+margin-bottom: 25px;
+height: 400px;
+background-image: url(../img/background.png);
+background-color: #FF9C00;
+border-top: 4px solid #FCBA50;
+border-bottom: 4px solid #FCBA50;
+}
+
+figure{
+padding: 0;
+margin: 0;
+}
+
+figcaption{
+font-family: sans-serif;
+font-size: 16px;
+padding-left: 30px;
+color: #333333;
+}
+
+figure img{
+margin: 0 0 30px 0;
+width: 294px;
+height: 294px;
+border-radius: 50%;
+display: block;
+}
+
+h3{
+margin: 0 auto 30px auto;
+text-align: center;
+padding-left: 30px;
+font-size: 24px;
+font-weight: normal;
+color: #6E6D6B;
+}
+
+.empty-block{
+padding: 0 0 73px 0;
+margin: 0;
+}
+
+footer{
+width: 100%;
+height: 70px;
+border-bottom: 3px solid #CC830F;
+background-color: #FB9C06;
+position: absolute;
+bottom: 11px;
+}
+
+.input-height{
+height: 90px;
+}
+
+h4{
+width: 1000px;
+padding-top: 15px;
+margin: 0 auto;
+text-align: center;
+font-size: 32px;
+font-weight: normal;
+letter-spacing: 0.05em;
+color: #FFFFFF;
+}
+
+form{
+font-size: 24px;
+font-weight: bold;
+}
+
+label{
+display: inline-block;
+width: 100px;
+vertical-align: top;
+margin-top: 30px;
+color: #FB9C06;
+}
+
+input{
+height: 33px;
+display: inline-block;
+margin-top: 30px;
+background-color: #F8F7F6;
+border: none;
+}
+
+.submit-button{
+width: 176px;
+height: 45px;
+font-size: 30px;
+border: none;
+border-bottom: 3px solid #CC830F;
+margin: 30px 0 60px 980px;
+background-color: #FB9C06;
+color: #FFFFFF;
+}
+
+@font-face{
+font-family: 'StMarie-Thin-webfont';
+src: url('../fonts/StMarie-Thin-webfont.ttf');
+}
+
+h2, h4, label, .submit-button{
+font-family: StMarie-Thin-webfont, Helvetica, sans-serif;
+}
+
+h1{
+font-weight: normal;
+}
+
+@font-face{
+font-family: 'Calibri';
+src: url('../fonts/Calibri');
+}
+
+h1, h3, nav a, .text-columns p, .text-columns a, figcaption{
+font-family: Calibri, Verdana, sans-serif;
+}
